@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>pashalki</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header>
+        <div class="headercon">
+            <img src="./1.19 картинка.jpg">
+            <button id="sidebar"onclick="openSide()" >
+                ≡ 
+            </button>
+            <a href="index.html">ГЛАВНАЯ</a>
+            <a href="versions.html">О ВЕРСИЯХ</a>
+            <a href="pashal.html">ПАСХАЛКИ</a>
+        </div>
+    </header>
+    <div id="sidebar-block">
+        <div><a href="index.html">Главная</a></div>
+        <div><a href="versions.html">О версиях</a></div>
+        <div><a href="pashal.html">Пасхалки</a></div>
+    </div> 
+    <main>
+        <h1 class="h1pashal">
+            Пасхалка 1
+            <br>
+            "Бирки"
+        </h1>
+        <h1 class="h1pashal">
+            "jeb_"
+        </h1>
+            <div class="videotexth1">
+                <video width="50%" autoplay muted>
+                    <source src="./jeb__Trim.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                  </video>
+                  <div class="h1pa4hal">
+                  <h1 class="h1pa4hal">
+                    Бирка “Jeb_”
+                  </h1>
+                  <h2 class="h1pa4hal">
+                    позволяет заставить шерсть овечки менять цвет.(как на видео)
+                    это может пригодится в постройках:
+                    лабаратория,зоо
+                    <br>
+                    парк и т.д
+                    Так же если подстрич такую овцу выподет белая шерсть.
+                  </h2>
+                  </div>
+            </div>
+            <h1 class="h1pashal">
+                "Grumm"
+            </h1>
+            <div class="videotexth1">
+                <video width="50%" autoplay muted>
+                    <source src="./grumm_Trim.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                  </video> 
+                  <div class="h1pa4hal">
+                    <h1 class="h1pa4hal">
+                        Бирка “Grumm”
+                    </h1>
+                    <h2 class="h1pa4hal">
+                        позволяет перевернуть ЛЮБОГО моба,
+                        будь то:корова(как на видео),овечка,
+                        <br>
+                        курица,зомби,
+                        <br>
+                        скелет и тд. 
+                        Это может пригодится в постройки острова наоборот построить летающий остров построить загон повешать корову на поводок
+                        который будет очень высоко и перевернуть биркой.
+                    </h2>
+                  </div>
+            </div>
+            <h1 class="h1pashal">
+                "Johnney"
+                <br>
+            </h1>
+            <div class="videotexth1">
+                <video width="50%" autoplay muted>
+                    <source src="./Johnny_Trim.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                  </video> 
+                  <div class="h1pa4hal">
+                    <h1 class="h1pa4hal">
+                        Бирка “Johnney”
+                    </h1>
+                    <h2 class="h1pa4hal">
+                        позволяет сделать поборника
+                        враждебным не только к игроку но и к мирным и не только мобам.
+                        Из этого можно сделать автоматическую ферму животных сделав так что нам надо будет только
+                        кормить животных и сделать чтоб они только после вырастания попадали к поборнику. 
+                    </h2>
+                  </div>
+            </div>
+            <h1 class="h1pashal">
+                Пасхалка 2
+                <br>
+                "Окрас шерсти"
+            </h1>
+            <div class="sherst">
+                <video width="50%" autoplay muted>
+                    <source src="./шерстьокрас_Trim.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                  </video>
+                  <div class="h1pa4hal">
+                    <h1 class="h1pa4hal">
+                        “Заклинатель красит шерсть”
+                    </h1>
+                    <h2 class="h1pa4hal">
+                        Я не знаю как это работает.
+                        Наверно Заклинателю не нравится синий цвет поэтаму
+                        он красит синих овец в красный.
+                    </h2>
+            </div>
+    </main>
+    <footer>
+        <div class="footercontainer">
+            <img class="imgfooter" src="./1.19 картинка.jpg">
+            <div class="so4seti">
+                <a href="https://www.facebook.com/minecraft/?ref=page_internal"><img src="./facebook-logo-210px-2.gif"></a>
+                <a href="https://www.instagram.com/minecraft/"><img src="./Instagram-Icon.png"></a>
+                <a href="https://vk.com/minecraftы"><img src="./VK_Compact_Logo_(2021-present).svg.webp"></a>
+            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2035.7303838283353!2d18.04999236122686!3d59.320758989707905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f77dd8f5bdf07%3A0xe3a8ee341cc7043!2z0J3QtSBtb2phbmc!5e0!3m2!1sru!2skz!4v1664769829339!5m2!1sru!2skz" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </footer>
+    <script>
+        let sidebar=document.getElementById("sidebar")
+     let block = document.getElementById("sidebar-block")
+     let isOpen = false;
+     function openSide(){
+         if(isOpen){
+             block.style.display = "none";
+             isOpen = false;
+         }
+         else{
+             block.style.display = "block";
+             isOpen = true;
+         }
+     } 
+     </script>
+</body>
+</html>

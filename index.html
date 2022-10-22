@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Minecraft</title>
+        <link href="style.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header>
+            <div class="headercon">
+                <img src="./1.19 картинка.jpg">
+                <button id="sidebar"onclick="openSide()" >
+                    ≡ 
+                </button>
+                <a href="index.html">ГЛАВНАЯ</a>
+                <a href="versions.html">О ВЕРСИЯХ</a>
+                <a href="pashal.html">ПАСХАЛКИ</a>
+            </div>
+        </header>
+        <div id="sidebar-block">
+            <div><a href="index.html">Главная</a></div>
+            <div><a href="versions.html">О версиях</a></div>
+            <div><a href="pashal.html">Пасхалки</a></div>
+        </div> 
+        <main>
+            <div class="maincontainer">
+                <img src="./логомайна.png" width="100%">
+                <div class="notch">
+                    <img src="./Notch3.webp" width="475" s>
+                    <div class="notchtext">
+                        Ма́ркус Алексе́й Пе́рссон (швед. Markus Alexej Persson),
+                        <br> 
+                        также известный под ником Notch (Нотч, род.
+                        <br> 
+                        1 июня 1979 года, Стокгольм, Швеция) — шведский
+                        <br>
+                        программист и гейм-дизайнер. Был владельцем компании
+                        <br>
+                        Mojang Studios, которую основал совместно с Карлом
+                        <br>
+                        Маннехом и Джейкобом Порсером в 2009 году.
+                        <br>
+                        Является создателем популярной компьютерной игры
+                        <br>
+                        Minecraft. Первую игру создал в 8 лет на домашнем
+                        <br>
+                        компьютере Commodore 128.
+                    </div> 
+                </div>
+                <h1 align="center" class="h1mine">Майнкрафт</h1>
+                <div class="doiposle">
+                    <div class="doiposleblock">
+                        <p class="doiposletext">До</p>
+                        <img src="./Rectangle 8.png">
+                        <p class="version">версия: Pre-Classic rd-131655 (Java Edition)</p>
+                    </div>
+                    <div class="doiposleblock">
+                        <p class="doiposletext">После</p>
+                        <img src="./Rectangle 9.png">
+                        <p class="version">версия: 1.19.2</p>
+                    </div>
+                </div> 
+                <hr>
+                <div class="offsayt">
+                <a href="https://www.minecraft.net/ru-ru">
+                    <img src="./лаунчермайна.webp">
+                </a>
+                </div>
+            </div>
+            
+           
+        </main>
+        <footer>
+            <div class="footercontainer">
+                <img class="imgfooter" src="./1.19 картинка.jpg">
+                <div class="so4seti">
+                    <a href="https://www.facebook.com/minecraft/?ref=page_internal"><img src="./facebook-logo-210px-2.gif"></a>
+                    <a href="https://www.instagram.com/minecraft/"><img src="./Instagram-Icon.png"></a>
+                    <a href="https://vk.com/minecraftы"><img src="./VK_Compact_Logo_(2021-present).svg.webp"></a>
+                </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2035.7303838283353!2d18.04999236122686!3d59.320758989707905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f77dd8f5bdf07%3A0xe3a8ee341cc7043!2z0J3QtSBtb2phbmc!5e0!3m2!1sru!2skz!4v1664769829339!5m2!1sru!2skz" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </footer>
+        <script>
+           let sidebar=document.getElementById("sidebar")
+        let block = document.getElementById("sidebar-block")
+        let isOpen = false;
+        function openSide(){
+            if(isOpen){
+                block.style.display = "none";
+                isOpen = false;
+            }
+            else{
+                block.style.display = "block";
+                isOpen = true;
+            }
+        } 
+        </script>
+    </body>
+</html>
